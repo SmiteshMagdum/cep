@@ -15,6 +15,8 @@ const colors = {
   Hard: "text-rose-400 bg-rose-400/10 ring-rose-400/30",
 };
 
+
+
 export default function ProblemCard({
   problem,
   solved,

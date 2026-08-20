@@ -231,28 +231,28 @@ export default function ProblemSetPage() {
   }, [tab, bookmarked, query]);
 
   return (
-    <div className="min-h-screen bg-[#0b0e14] text-white/90 p-4 sm:p-6">
+    <div className="min-h-screen text-white-1 p-4 sm:p-6 scrollbar-none">
       <div className="mx-auto max-w-5xl">
 
-        <h1 className="text-2xl font-semibold text-white">
+        <h1 className="text-2xl font-medium font-mono text-white-1">
           Problem Set
         </h1>
 
-        <p className="text-sm text-white/45 mb-5">
+        <p className="text-sm text-gray-1 mb-5">
           {solved.size} of {PROBLEMS.length} solved
         </p>
 
         {/* Toolbar */}
         <div className="flex justify-between items-center gap-3 flex-wrap mb-4">
 
-          <div className="flex gap-1 bg-white/5 rounded-lg p-1">
+          <div className="flex gap-1 bg-[#1A202C] rounded-lg p-1">
             {["All", "Bookmarked"].map((t) => (
               <button
                 key={t}
                 onClick={() => setTab(t)}
                 className={`px-3 py-1.5 rounded-md text-sm ${
                   tab === t
-                    ? "bg-sky-500/20 text-sky-300 ring-1 ring-sky-500/40"
+                    ? "bg-sky-500/20 text-green-1 ring-1 ring-sky-500/40"
                     : "text-white/55"
                 }`}
               >
@@ -278,7 +278,7 @@ export default function ProblemSetPage() {
         </div>
 
         {/* Problem Table */}
-        <div className="rounded-xl border border-white/10 overflow-x-auto">
+        <div className="rounded-xl border border-white/10 overflow-x-auto scrollbar-none">
           <table className="w-full min-w-[750px] text-left border-collapse">
 
             <thead>

@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "app/problemset/page.jsx"  ],
+, "app/problemset/page.jsx", "components/ProblemCard.jsx"  ],
   "exclude": ["node_modules"]
 }

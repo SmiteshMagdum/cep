@@ -9,18 +9,114 @@ const BOOKMARK_KEY = "cf-tracker-bookmarks";
 const NOTES_KEY = "cf-tracker-notes";
 
 const PROBLEMS = [
-  { id: 1, title: "Watermelon", contest: 4, index: "A", concept: "Math", difficulty: "Easy", solution: "Any even weight ≥ 4 can be split into two positive even parts." },
-  { id: 2, title: "Way Too Long Words", contest: 71, index: "A", concept: "Strings", difficulty: "Easy", solution: "If the word length is greater than 10, replace the middle letters with their count." },
-  { id: 3, title: "Team", contest: 231, index: "A", concept: "Implementation", difficulty: "Easy", solution: "Count how many of the three members agree. If at least two agree, solve it." },
-  { id: 4, title: "Beautiful Matrix", contest: 263, index: "A", concept: "Simulation", difficulty: "Easy", solution: "Find the position of 1 and calculate its distance from the center." },
-  { id: 5, title: "Next Round", contest: 158, index: "A", concept: "Binary Search", difficulty: "Easy", solution: "Count participants whose score is at least the k-th score and greater than zero." },
-  { id: 6, title: "Bit++", contest: 282, index: "A", concept: "Simulation", difficulty: "Easy", solution: "Increase the value for ++ and decrease it for --." },
-  { id: 7, title: "Boy or Girl", contest: 236, index: "A", concept: "Strings", difficulty: "Easy", solution: "Count distinct characters. Even means female and odd means male." },
-  { id: 8, title: "Petya and Strings", contest: 112, index: "A", concept: "Strings", difficulty: "Easy", solution: "Convert both strings to lowercase and compare them." },
-  { id: 9, title: "Domino Piling", contest: 50, index: "A", concept: "Math", difficulty: "Easy", solution: "The maximum number of dominoes is floor(M × N / 2)." },
-  { id: 10, title: "Helpful Maths", contest: 339, index: "A", concept: "Greedy", difficulty: "Easy", solution: "Separate the numbers, sort them, and join them with plus signs." },
-  { id: 11, title: "Football", contest: 96, index: "A", concept: "Strings", difficulty: "Easy", solution: "Check whether seven identical characters occur consecutively." },
-  { id: 12, title: "Theatre Square", contest: 1, index: "A", concept: "Math", difficulty: "Medium", solution: "Ceil-divide both dimensions by the flagstone size and multiply." },
+  {
+    id: 1,
+    title: "Say Hello With C++",
+    contest: 219158,
+    index: "A",
+    concept: "Basics",
+    difficulty: "Easy",
+    solution: "Learn basic C++ output using cout."
+  },
+  {
+    id: 2,
+    title: "Basic Data Types",
+    contest: 219158,
+    index: "B",
+    concept: "Data Types",
+    difficulty: "Easy",
+    solution: "Read different data types and print them in the required format."
+  },
+  {
+    id: 3,
+    title: "Simple Calculator",
+    contest: 219158,
+    index: "C",
+    concept: "Arithmetic",
+    difficulty: "Easy",
+    solution: "Read two numbers and calculate their required arithmetic operations."
+  },
+  {
+    id: 4,
+    title: "Difference",
+    contest: 219158,
+    index: "D",
+    concept: "Arithmetic",
+    difficulty: "Easy",
+    solution: "Read the given numbers and calculate their difference using multiplication and subtraction."
+  },
+  {
+    id: 5,
+    title: "Area of a Circle",
+    contest: 219158,
+    index: "E",
+    concept: "Math",
+    difficulty: "Easy",
+    solution: "Use the circle area formula π × r × r."
+  },
+  {
+    id: 6,
+    title: "Digits Summation",
+    contest: 219158,
+    index: "F",
+    concept: "Math",
+    difficulty: "Easy",
+    solution: "Read two numbers and multiply their last digits."
+  },
+  {
+    id: 7,
+    title: "Summation from 1 to N",
+    contest: 219158,
+    index: "G",
+    concept: "Math",
+    difficulty: "Easy",
+    solution: "Calculate the sum of all numbers from 1 to N."
+  },
+  {
+    id: 8,
+    title: "Two numbers",
+    contest: 219158,
+    index: "H",
+    concept: "Conditions",
+    difficulty: "Easy",
+    solution: "Compare two numbers and print the required result."
+  },
+  {
+    id: 9,
+    title: "Welcome for you with Conditions",
+    contest: 219158,
+    index: "I",
+    concept: "Conditions",
+    difficulty: "Easy",
+    solution: "Use if-else conditions to determine the correct output."
+  },
+  {
+    id: 10,
+    title: "Multiples",
+    contest: 219158,
+    index: "J",
+    concept: "Conditions",
+    difficulty: "Easy",
+    solution: "Check whether one number is a multiple of another."
+  },
+  {
+    id: 11,
+    title: "Max and Min",
+    contest: 219158,
+    index: "K",
+    concept: "Conditions",
+    difficulty: "Easy",
+    solution: "Compare the given numbers to find the maximum and minimum."
+  },
+  {
+    id: 12,
+    title: "The Brothers",
+    contest: 219158,
+    index: "L",
+    concept: "Conditions",
+    difficulty: "Easy",
+    solution: "Compare the given information and determine whether the two people are brothers."
+  }
 ];
 
 export default function ProblemSetPage() {

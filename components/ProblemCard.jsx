@@ -31,7 +31,7 @@ export default function ProblemCard({
       <tr className="border-b border-white/[0.06] text-sm hover:bg-white/[0.03]">
         <td className="px-5 py-3.5">
           <a
-            href={`https://codeforces.com/problemset/problem/${problem.contest}/${problem.index}`}
+           href={`https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/${problem.index}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 font-medium hover:text-sky-300 hover:underline"

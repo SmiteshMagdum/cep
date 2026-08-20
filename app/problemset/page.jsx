@@ -356,9 +356,9 @@ export default function ProblemSetPage() {
             <div className="mx-5 mb-5 border border-white/10 bg-[#1d1d20] rounded-sm">
 
               <div className="flex justify-center pt-2 overflow-x-auto">
-                <div className="flex items-center gap-5 bg-gray-100 text-gray-700 rounded-lg px-5 py-3">
+                {/* <div className="flex items-center gap-5 bg-gray-100 text-gray-700 rounded-lg px-5 py-3"> */}
 
-                  <span className="text-sm mr-3">
+                  {/* <span className="text-sm mr-3">
                     Normal
                   </span>
 
@@ -376,9 +376,9 @@ export default function ProblemSetPage() {
                   <span>≡</span>
 
                   <Link size={15} />
-                  <Code size={15} />
+                  <Code size={15} /> */}
 
-                </div>
+                {/* </div> */}
               </div>
 
               <textarea

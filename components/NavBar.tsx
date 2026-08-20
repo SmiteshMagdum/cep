@@ -7,7 +7,7 @@ function NavBar() {
     {navBarValue.map((nav) => (
         <Link 
         className="hover:text-green-2"
-        href={nav.href}>
+        href={nav.href} key={nav.text}>
             {nav.text}
         </Link>
     ))}

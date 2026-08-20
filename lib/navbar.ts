@@ -10,11 +10,11 @@ export const navBarValue : NavBarProps[] = [
     text : "Website Learning"
     },
     {
-    href : "#",
+    href : "/problemset",
     text : "Problem Set"
     },
     {
-    href : "#",
-    text : "Timer"
+    href : "/hackthon",
+    text : "Hackathon"
     },
 ]

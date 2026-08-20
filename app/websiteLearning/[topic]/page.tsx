@@ -1,3 +1,6 @@
+"use client"
+import { Editor } from "@monaco-editor/react";
+
 export default function WebsiteLearning(){
     return <div className="ml-6">
         <div>
@@ -7,7 +10,11 @@ export default function WebsiteLearning(){
 
                 </div>
             </div>
-            <div></div>
+            <div>
+                <Editor 
+                defaultLanguage="html"
+                width="500px"/>
+            </div>
             <div></div>
         </div>
     </div>

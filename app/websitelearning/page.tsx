@@ -3,32 +3,22 @@ import HtmlEditor from "@/components/website_making/HtmlEditor";
 
 export default function DocsPage() {
   return (
-    <div className="flex">
+    <div>
       <Sidebar />
 
-      <main className="ml-64 max-w-4xl px-10 py-12">
+      <main className="mx-auto max-w-4xl px-4 py-20 sm:px-6 md:ml-64 md:px-10 md:py-12">
+        {/* Your existing sections here */}
 
         <section
           id="html-introduction"
           className="scroll-mt-10"
         >
-          <h1 className="text-4xl font-bold">
+          <h1 className="text-3xl font-bold sm:text-4xl">
             HTML Introduction
           </h1>
 
           <p className="mt-4 text-gray-1">
             HTML stands for HyperText Markup Language.
-            It is the standard language used to create
-            and structure web pages.
-          </p>
-
-          <h2 className="mt-8 text-2xl font-semibold">
-            What is HTML?
-          </h2>
-
-          <p className="mt-3 text-gray-1">
-            HTML uses elements to describe the structure
-            of a web page.
           </p>
 
           <HtmlEditor
@@ -45,7 +35,6 @@ export default function DocsPage() {
 </html>`}
           />
         </section>
-
         <section
           id="html-structure"
           className="mt-32 scroll-mt-10"

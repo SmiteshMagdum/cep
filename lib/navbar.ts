@@ -6,7 +6,7 @@ export const navBarValue : NavBarProps[] = [
     text : "Home"
     },
     {
-    href : "/websiteLearning",
+    href : "/websitelearning",
     text : "Website Learning"
     },
     {

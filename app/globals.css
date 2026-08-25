@@ -4,6 +4,7 @@
   --background: #131420;
   --foreground: #ffffff;
   --gray-1 : #A0AEC0;
+  --gray-2 : #1a202c;
   --green-1 : #16A394;
   --green-2 : #71E8DF;
   --white-1 : #F7FAFC;
@@ -26,4 +27,8 @@
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+html {
+  scroll-behavior: smooth;
 }

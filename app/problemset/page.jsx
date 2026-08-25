@@ -253,7 +253,7 @@ export default function ProblemSetPage() {
     <div className="min-h-screen bg-[#0b0e14] text-white/90 p-4 sm:p-6">
       {/* GitHub icon - top right corner */}
       <a
-        href="https://github.com/yourusername"
+        href="https://github.com/furishere/cep"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="GitHub"

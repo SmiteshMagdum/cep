@@ -251,20 +251,10 @@ export default function ProblemSetPage() {
 
   return (
     <div className="min-h-screen bg-[#0b0e14] text-white/90 p-4 sm:p-6">
-      {/* GitHub icon - top right corner */}
-      <a
-        href="https://github.com/furishere/cep"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="GitHub"
-        className="fixed top-2 right-4 sm:top-3 sm:right-6 z-50 text-white/70 hover:text-white transition-colors"
-      >
-        <GithubIcon size={22} />
-      </a>
+    
 
 
     <div className="min-h-screen text-white-1 p-4 sm:p-6 scrollbar-none">
-   main
       <div className="mx-auto max-w-5xl">
 
         <h1 className="text-2xl font-medium font-mono text-white-1">
@@ -453,6 +443,7 @@ export default function ProblemSetPage() {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 }

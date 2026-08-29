@@ -1,6 +1,6 @@
 # Learn Basic
  
-A coding awareness program for school children — teaches HTML and CSS
+A coding awareness program for school children,  teaches HTML and CSS
 through short, live lessons with an in-browser code editor, a 12-problem
 set to practice with, and a beginner-friendly hackathon page.
  
@@ -28,7 +28,7 @@ set to practice with, and a beginner-friendly hackathon page.
  
 Learn Basic exists for one reason: the first line of code someone writes
 shouldn't feel intimidating. It's a small, self-contained web app aimed at
-school students who've never written HTML or CSS before — no setup, no
+school students who've never written HTML or CSS before,  no setup, no
 sign-up, nothing to install. Open the site, read a short lesson, run some
 code, and see it work.
  
